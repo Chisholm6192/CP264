@@ -1,0 +1,53 @@
+/**
+ * -------------------------------------
+ * @file  testing.txt
+ * Lab 1 Test Results File
+ * -------------------------------------
+ * @author Ryan Chisholm, chis7577@mylaurier.ca
+ *
+ * @version 2024-01-16
+ *
+ * -------------------------------------
+ */
+Results:
+
+-------------------------------------
+No command line parameters
+
+Program Parameters:
+
+  No user parameters specified.
+
+  Argument 0 is a system default, and is always passed to the main program.
+  Argument 0 is the path and name of the executable file.
+
+  argc: 1
+  argv[0] = "C:\Users\rmwc9\Documents\Programming\CP264\chis7577_l01\Debug\chis7577_l01.exe"
+
+
+-------------------------------------
+A command line with parameters A 1 "some strings"
+
+Program Parameters:
+
+  argc: 4
+
+  argv[0] = "C:\Users\rmwc9\Documents\Programming\CP264\chis7577_l01\Debug\chis7577_l01.exe"
+  argv[1] = "A"
+  argv[2] = "1"
+  argv[3] = "some strings"
+
+
+-------------------------------------
+A command line with parameters B 2 some strings
+
+Program Parameters:
+
+  argc: 5
+
+  argv[0] = "C:\Users\rmwc9\Documents\Programming\CP264\chis7577_l01\Debug\chis7577_l01.exe"
+  argv[1] = "B"
+  argv[2] = "2"
+  argv[3] = "some"
+  argv[4] = "strings"
+
