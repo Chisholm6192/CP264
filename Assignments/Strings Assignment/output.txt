@@ -1,0 +1,56 @@
+/**
+ * -------------------------------------
+ * @file  testing.txt
+ * 
+ * CP264 Assignment 3 Testing
+ * 
+ * -------------------------------------
+ * @author Ryan Chisholm, chis7577@mylaurier.ca
+ *
+ * @version 02-03-2024
+ *
+ * ------------------------------------- */
+
+Q1
+------------------
+Test: str_words
+
+str_words(Abc  DEF):2
+str_words(  aBc   Def   ):2
+str_words(  Toonie is the Canadian $2 coin. ):5
+str_words(  Binary has 10 digits.  ):3
+
+------------------
+Test: str_lower
+
+str_lower(Abc  DEF):abc  def
+str_lower(  aBc   Def   ):  abc   def
+str_lower(  Toonie is the Canadian $2 coin. ):  toonie is the canadian $2 coin.
+str_lower(  Binary has 10 digits.  ):  binary has 10 digits.
+
+------------------
+Test: str_trim
+
+str_trim(Abc  DEF):Abc DEF
+
+str_trim(  aBc   Def   ):aBc Def
+str_trim(  Toonie is the Canadian $2 coin. ):Toonie is the Canadian $2 coin.
+str_trim(  Binary has 10 digits.  ):Binary has 10 digits.
+
+
+Q2
+------------------
+Test: create_dictionary, contain_word
+
+create_dictionary(): 1
+contain_word(this): 1
+contain_word(is): 1
+contain_word(data): 0
+contain_word(structure): 0
+
+------------------
+Test: process_words
+
+line_count: 2
+word_count: 10
+keyword_count: 8
