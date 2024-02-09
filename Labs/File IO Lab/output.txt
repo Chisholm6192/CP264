@@ -1,0 +1,24 @@
+/**
+ * -------------------------------------
+ * @file  testing.txt
+ * Lab 4 Testing File
+ * -------------------------------------
+ * @author Ryan Chisholm, chis7577@mylaurier.ca
+ *
+ * @version 2024-02-03
+ *
+ * -------------------------------------
+ */
+
+Test strings_with_substring
+
+Enter substring: long
+A longer line
+A really long line that never seems to end and goes on and on
+------------------------
+
+Test strings_length
+
+Enter the length comparison value: 6
+
+OUTPUT to Long File: A short lineA longer lineA really long line that never seems to end and goes on and on
