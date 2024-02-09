@@ -1,0 +1,60 @@
+--------------------------------------------------
+File:    testing.txt 
+About:   Assignment 4 Testing
+Author:  Ryan Chisholm, chis7577@mylaurier.ca
+Version: 2024-02-07
+---------------------------------------------------
+Testing myrecord
+------------------
+Test: grade
+
+grade(45.7): F
+grade(50.0): D-
+grade(55.0): D
+grade(59.0): D+
+grade(61.0): C-
+grade(63.0): C
+grade(67.2): C+
+grade(72.0): B-
+grade(76.0): B
+grade(79.0): B+
+grade(80.5): A-
+grade(85.0): A
+grade(93.6): A+
+
+------------------
+Test: import_data
+
+import_data():10
+A1        10.0
+A2        20.0
+A3        30.0
+A4        40.0
+A5        50.0
+A6        60.0
+A7        70.0
+A8        80.0
+A9        90.0
+A10       100.0
+
+------------------
+Test: process_data
+
+count     10
+mean      55.0
+stddev    28.7
+median    55.0
+
+------------------
+Test: report_data
+
+A1,10.0,F
+A2,20.0,F
+A3,30.0,F
+A4,40.0,F
+A5,50.0,D-
+A6,60.0,C-
+A7,70.0,B-
+A8,80.0,A-
+A9,90.0,A+
+A10,100.0,A+
