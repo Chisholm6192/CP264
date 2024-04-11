@@ -3,7 +3,6 @@
  * @file  queue.c
  * 
  * -------------------------------------
- * @author Ryan Chisholm, 169027577, chis7577@mylaurier.ca
  *
  * @version 2024-02-26
  *
